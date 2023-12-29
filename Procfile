@@ -1,1 +1,1 @@
-web: python -m http.server --directory ./public $PORT
+web: java -jar my-simple-server.jar -p $PORT
